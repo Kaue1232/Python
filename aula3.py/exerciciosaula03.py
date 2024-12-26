@@ -19,3 +19,7 @@ d = n1 / n2
 p = n1 ** n2
 
 print('A soma é {},a subtração é {}, a multiplicação é {}, a divisão é {:.2f} e a potenciação é {}'.format(s,su,m,d,p))
+
+
+
+
