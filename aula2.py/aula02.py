@@ -1,3 +1,6 @@
+# aula02. Tipos primitivos e saídas de dados
+
+
 n1 = int (input('Digite um número: ')) # O código sem o int vai apenas juntar/concatenar os números, pois as variáveis n1 e n2 entendem como se os valores que estão dentro são do tipo caractere
 print(type(n1))
 n2 = int (input('Digite outro número: '))
