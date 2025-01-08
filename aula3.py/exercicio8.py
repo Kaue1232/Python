@@ -2,7 +2,7 @@
 
 preço = float(input('Qual o preço do produto? R$'))
 
-promo = preço - ( preço *5/100 )
-diferença = preço - promo
+desconto = preço - ( preço *5/100 )
+diferença = preço - desconto
 
-print('O valor do produto com desconto de 5% é de R${}\nOu seja, R${} de desconto'.format(promo, diferença))
+print('O valor do produto com desconto de 5% é de R${}\nOu seja, R${} de desconto'.format(desconto, diferença))
