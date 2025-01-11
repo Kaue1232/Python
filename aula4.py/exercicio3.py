@@ -2,16 +2,23 @@
 
 import random
 
-nomes1 = ["Kauê", "Anderson", "Alan", "Wesley"]
+n1 = str(input('Primeiro aluno: '))
+n2 = str(input('Segundo aluno: '))
+n3 = str(input('Terceiro aluno: '))
+n4 = str(input('Quarto aluno: '))
+lista = [n1,n2,n3,n4] #Em python, os colchetes servem em casos de listas, strings, tuplas ou matrizes.
 
-nome_aleatorio = random.choice(nomes1) #random.choice serve para selecionarmos apenas um nome em uma lista qualquer de pessoas
+escolhido = random.choice(lista)
 
-print(nome_aleatorio)
+print('O aluno(a) escolhido(a) será o(a) {}'.format(escolhido)) #random.choice escolhe um valor fornecido
 
-# Para selecionarmos vários nomes, sem repetições usaremos o random.sample. Ex:
+
+
+
+'''# Para selecionarmos vários nomes, sem repetições usaremos o random.sample. Ex:
 import random
 
 nomes2 = ["Ana", "Carlos", "Bianca", "João", "Mariana", "Pedro"]
 nomes_aleatorios = random.sample(nomes2, k=3)  # Seleciona 3 nomes sem repetição
 
-print(nomes_aleatorios)
+print(nomes_aleatorios)'''

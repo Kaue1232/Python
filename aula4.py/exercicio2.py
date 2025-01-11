@@ -1,12 +1,22 @@
 #Faça um programa que leio o comprimento do cateto oposto e do cateto adjacente de um triângulo retangulo. Calcule o tamanho da hipotenusa
-import math 
+'''import math 
 
-catetooposto = int(input('Digite o comprimento do cateto oposto: '))
+catetooposto = float(input('Digite o comprimento do cateto oposto: '))
 
-catetoadjacente = int(input('Digite o comprimento do cateto adjacente: '))
+catetoadjacente = float(input('Digite o comprimento do cateto adjacente: '))
 
 hipotenusa = (catetooposto**2 + catetoadjacente**2)
 
-raiz = int(math.sqrt(hipotenusa))
+raiz = float(math.sqrt(hipotenusa))
 
-print('O tamanho da hipotenusa é igual a {}'.format(raiz))
+print('O tamanho da hipotenusa é igual a {:.2f}'.format(raiz))'''
+
+from math import hypot
+
+catetooposto = float(input('Digite o comprimento do cateto oposto: '))
+
+catetoadjacente = float(input('Digite o comprimento do cateto adjacente: '))
+
+hipotenusa = hypot(catetooposto,catetoadjacente) #math.hypot serve para calcular o valor da hipotenusa. O math. tem diversas funcionalidades e pode calcular diversas coisas, como seno, cosseno e tangente
+
+print('O tamanho da hipotenusa é igual a {:.2f}'.format(hipotenusa))
