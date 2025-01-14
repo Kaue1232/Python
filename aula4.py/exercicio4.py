@@ -11,3 +11,5 @@ shuffle(lista) #Shuffle == Embaralhar.  Serve para embaralhar a lista inteira
 print('A sequência da apresentação será ')
 print(lista)
 
+#Parei no exercício 32, ano bissexto 
+
